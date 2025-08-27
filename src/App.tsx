@@ -10,6 +10,7 @@ import { AuthScreen } from './components/AuthScreen';
 import { useAuth } from './contexts/AuthContext';
 import { useChatHistory } from './contexts/ChatHistoryContext';
 import { useTheme } from './contexts/ThemeContext';
+import { Factory } from 'lucide-react';
 import { generateResponse } from './utils/gemini';
 import type { Message, UserRole, ChatState, ChatHistory } from './types';
 
